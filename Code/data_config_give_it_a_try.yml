@@ -1,0 +1,15 @@
+# CPAC Data Configuration File
+# Version 1.1.0
+#
+# http://fcp-indi.github.io for more info.
+#
+# Tip: This file can be edited manually with a text editor for quick modifications.
+
+- anat: /bids_dataset/BIDS/sub-01/anat/sub-01_T1w.nii.gz
+  func:
+    rest:
+      scan: /bids_dataset/BIDS/sub-01/func/sub-01_task-rest_bold.nii.gz
+      scan_parameters: /bids_dataset/BIDS/sub-01/func/sub-01_task-rest_bold.json
+  site: BIDS
+  subject_id: '01'
+  unique_id: ses-1
