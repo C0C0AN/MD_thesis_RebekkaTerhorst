@@ -861,3 +861,7 @@ modelConfigs :  []
 
 # other things
 - additionally I read about MNE, a python based module which we want to use to analyse our physiological data (gsr, respiration, heart ferquency) and adapted a script from Malte Gueth. I uploaded it in the "Code" folder. Currently the settings remain provisionaly. the channels need to be more precisly defined. As well as I need to read further into the concrete function of "epochs".
+
+# week 16.7. - 20.7.
+- CPAC pipeline works on individual level in docker but not with the GUI
+- wrote some code to convert -mat into .csv to da the connectivity analysis in nilearn
